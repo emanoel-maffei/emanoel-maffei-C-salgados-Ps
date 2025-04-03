@@ -83,6 +83,10 @@ a {
   text-decoration: none;
 }
 
+a.links-u {
+  text-decoration: underline;
+}
+
 a,
 a>span {
   cursor: pointer;
@@ -140,5 +144,5 @@ li {
 
 #caminhos > li {
   color: rgb(255, 85, 85);
-  
+
 }
