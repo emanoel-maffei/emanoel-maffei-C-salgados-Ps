@@ -127,7 +127,7 @@ footer > ul > li {
 li {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
-  color: white;
+  color: rgb(255, 85, 85);
 }
 
 #link-css {
@@ -136,4 +136,9 @@ li {
   color: white;
   padding: 5px;
   border-radius: 2.5px;
+}
+
+#caminhos > li {
+  color: rgb(255, 85, 85);
+  
 }
