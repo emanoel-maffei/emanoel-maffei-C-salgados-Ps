@@ -7,6 +7,7 @@ body {
   font-size: 1em;
   font-weight: normal;
   background-color: hsl(0, 100%, 80%);
+  color: hsl(25, 100%, 90%);
   height: 120vh;
   margin: 0;
 
