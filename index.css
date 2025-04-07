@@ -18,6 +18,10 @@ body {
   display: none;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
 h1 {
   color: red;
   text-align: center;
