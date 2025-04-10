@@ -88,7 +88,13 @@ a {
   text-decoration: none;
 }
 
+nav {
+  background-color: indianred;
+  padding: 10px;
+}
+
 a.links-u {
+  color: white;
   text-decoration: underline;
 }
 
@@ -149,11 +155,27 @@ li {
 
 #caminhos>li {
   color: rgb(255, 85, 85);
-
 }
 
-#receitas {
+#tipos_de_receitas {
+  margin-left: 1px;
+  padding-left: 5px;
+  background-color: hsla(0, 0%, 100%, 0.5);
   border-style: solid;
-  border-width: 1px;
-  border-color: hsla(0, 100%, 50%, 0.25);
+  border-width: 3px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: hsla(0, 100%, 50%, 1);
+}
+
+/* cursor personalizado */
+
+#cursor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 30px;
+  height: 30px;
 }
