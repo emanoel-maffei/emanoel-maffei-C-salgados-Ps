@@ -151,3 +151,9 @@ li {
   color: rgb(255, 85, 85);
 
 }
+
+#receitas {
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 100%, 50%, 0.25);
+}
