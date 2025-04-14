@@ -19,7 +19,13 @@ body {
 }
 
 header {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+section#receitas {
+  /* margin: 0px;  */
+  margin-top: -10px;
+  margin-bottom: 25px;
 }
 
 h1 {
@@ -131,6 +137,8 @@ footer {
 }
 
 footer>ul>li {
+  font-weight: bolder;
+  color: pink;
   width: 100%;
   margin: 5px;
 }
@@ -168,14 +176,4 @@ li {
   border-color: hsla(0, 100%, 50%, 1);
 }
 
-/* cursor personalizado */
-
-#cursor {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-  width: 30px;
-  height: 30px;
-}
+B
