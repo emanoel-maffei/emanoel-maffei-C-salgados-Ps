@@ -16,7 +16,7 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
-}  
+}
 
 header {
   margin-bottom: 0px;
@@ -29,13 +29,14 @@ section#receitas {
 }
 
 h1 {
-  color: red;
+  color: darkred;
   text-align: center;
 }
 
 h2 {
   color: hsl(0, 100%, 60%);
   margin: 0;
+  padding-top: 3px;
   margin-bottom: 15px;
   margin-left: 15px;
 }
@@ -91,7 +92,6 @@ a {
   color: red;
   width: 100%;
   text-align: center;
-  text-decoration: none;
 }
 
 nav {
@@ -128,12 +128,53 @@ mark {
   border-radius: 2.5px;
 }
 
+#out-footer {
+  display: none;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+  z-index: 0;
+}
+
 footer {
-  background-color: hsl(0, 100%, 35%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: fixed;
+  left: 0%;
+  top: 121%;
+  transform: translate(0%, -100%);
+
+  background-image: linear-gradient(hsla(0, 100%, 35%, 0), hsla(0, 100%, 35%, 0.8), hsla(0, 100%, 35%, 1), hsla(0, 100%, 35%, 1));
   color: white;
+  width: 100%;
   padding: 10px;
   padding-bottom: 20px;
   margin-top: 10px;
+  transition: 500ms;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover {
+    top: 115%;
+  }
+}
+
+footer>h3,
+footer>ul,
+footer>ul>li,
+footer>ul>li>i,
+footer>p,
+footer>p>small {
+  cursor: pointer;
 }
 
 footer>ul>li {
@@ -183,5 +224,3 @@ i.i-footer {
   border-bottom-width: 1px;
   border-color: hsla(0, 100%, 50%, 1);
 }
-
-B
