@@ -144,14 +144,14 @@ mark {
 }
 
 footer {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
 
   position: fixed;
   left: 0%;
-  top: 125%;
-  transform: translate(0%, -100%);
+  top: 120%;
+  transform: translate(0%, -120%);
 
   background-image: linear-gradient(hsla(0, 100%, 35%, 0), hsla(0, 100%, 35%, 0.8), hsla(0, 100%, 35%, 1), hsla(0, 100%, 35%, 1));
   color: white;
