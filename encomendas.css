@@ -35,7 +35,7 @@ form input, form select, form textarea {
   border-color: darkgrey;
   border-radius: 5px;
   background-color: white;
-  box-sizing: border-box; /* duvida */
+  box-sizing: border-box; /* o que é? */
 }
 
 form textarea {
@@ -58,7 +58,7 @@ form button {
 } 
 
 form button:hover {
-  background-color: rgb(204, 52, 52); /* duvida */
+  background-color: rgb(204, 52, 52);
 }
 
 /* parte 3 */
